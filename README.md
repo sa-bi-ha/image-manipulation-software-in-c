@@ -116,8 +116,7 @@ Run:
 ## 📝 Notes
 
 - The image manipulation algorithms are implemented in **C** as part of this project.
-- External libraries are used for the GUI and related functionality, but the actual image manipulation operations are implemented by the project itself.
-- The project is designed so that the **source code remains platform-independent**, while the required IUP libraries and build commands may differ between Windows and Linux.
+  
 ## Screenshots
 
 ![Screenshot 1](image%20editor.png/Screenshot%202026-09-06%20181824.png)
