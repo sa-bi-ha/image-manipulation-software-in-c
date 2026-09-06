@@ -1,4 +1,4 @@
-# image-manupulation-software-in-c
+# image-manipulation-software-in-c
    
 📌Overview
 
