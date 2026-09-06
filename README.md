@@ -98,6 +98,7 @@ Then compile using GCC with the appropriate IUP include and library paths.
 Example:
 
 ``bash
+
 gcc src/*.c -o image_editor -std=c17 -Wall -Wextra -Iinclude -Ithird_party/iup/include -Lthird_party/iup -liup
 ```
 
@@ -106,6 +107,7 @@ gcc src/*.c -o image_editor -std=c17 -Wall -Wextra -Iinclude -Ithird_party/iup/i
 Run:
 
 ```bash
+
 ./image_editor
 ```
 
