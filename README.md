@@ -69,19 +69,21 @@ A simple **24-bit uncompressed BMP** image manipulation program written in **C**
 - IUP Draw
 - Required IUP dependencies
 
----
+```
 
 ## Building on Windows
 
 Open the **MSYS2 MINGW64** terminal in the project directory and run:
 
 ```bash
+
 gcc src/*.c -o image_editor.exe -std=c17 -Wall -Wextra -mwindows -Iinclude -Ithird_party/iup/include -Lthird_party/iup -liupcontrols -liupgl -liupimglib -liup -lgdi32 -lcomctl32 -lole32 -luuid -lmingw32
 ```
 
 Then run:
 
 ```bash
+
 ./image_editor.exe
 ```
 
