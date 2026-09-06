@@ -74,6 +74,7 @@ Open the **MSYS2 MINGW64** terminal in the project directory and run:
 
 
 ```bash
+
 gcc src/*.c -o image_editor.exe -std=c17 -Wall -Wextra -mwindows -Iinclude -Ithird_party/iup/include -Lthird_party/iup -liupcontrols -liupgl -liupimglib -liup -lgdi32 -lcomctl32 -lole32 -luuid -lmingw32
 ```
 
