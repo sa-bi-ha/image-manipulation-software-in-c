@@ -71,7 +71,7 @@ A simple **24-bit uncompressed BMP** image manipulation program written in **C**
 
 ---
 
-## 🛠️ Building on Windows
+## Building on Windows
 
 Open the **MSYS2 MINGW64** terminal in the project directory and run:
 
@@ -87,7 +87,7 @@ Then run:
 
 ---
 
-## 🐧 Building on Linux
+##  Building on Linux
 
 Make sure the Linux version of **IUP** and its required libraries are available.
 
