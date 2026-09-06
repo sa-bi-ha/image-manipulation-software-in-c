@@ -46,8 +46,6 @@ A simple **24-bit uncompressed BMP** image manipulation program written in **C**
 │
 ├── third_party/          # External libraries
 │   └── iup/
-│
-├── tasks.json
 └── README.md
 
 
