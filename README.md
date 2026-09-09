@@ -217,50 +217,8 @@ Image-Manipulation-Software/
 - **IUP GUI Toolkit**
 - **BMP Image Format**
 - **GCC / MinGW-w64**
-
 ```
 
-## Building on Windows
-
-Open the **MSYS2 MINGW64** terminal in the project directory and run:
-
-```bash
-
-gcc src/*.c -o image_editor.exe -std=c17 -Wall -Wextra -mwindows -Iinclude -Ithird_party/iup/include -Lthird_party/iup -liupcontrols -liupgl -liupimglib -liup -lgdi32 -lcomctl32 -lole32 -luuid -lmingw32
-```
-
-Then run:
-
-```bash
-
-./image_editor.exe
-```
-
----
-
-##  Building on Linux
-
-Make sure the Linux version of **IUP** and its required libraries are available.
-
-Then compile using GCC with the appropriate IUP include and library paths.
-
-Example:
-
-```bash
-
-gcc src/*.c -o image_editor -std=c17 -Wall -Wextra -Iinclude -Ithird_party/iup/include -Lthird_party/iup -liup
-```
-
-> Depending on the Linux IUP installation, additional libraries may need to be linked.
-
-Run:
-
-```bash
-
-./image_editor
-```
-
----
 
 ## 📝 Notes
 
