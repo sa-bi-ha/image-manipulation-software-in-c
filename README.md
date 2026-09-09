@@ -217,7 +217,7 @@ Image-Manipulation-Software/
 - **IUP GUI Toolkit**
 - **BMP Image Format**
 - **GCC / MinGW-w64**
-```
+  
 
 
 ## 📝 Notes
